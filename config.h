@@ -10,6 +10,8 @@ static const unsigned int gappov    = 20;       /* vert outer gap between window
 static const int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
+static const int vertpad            = 10;       /* vertical padding of bar */
+static const int sidepad            = 20;       /* horizontal padding of bar */
 static const int user_bh            = 30;        /* 0 means that dwm will calculate bar height, >= 1 means dwm will user_bh as bar height */
 static const char *fonts[]          = { "fa-regular-400:size=14:antialias=true:autohint=true", "JoyPixels:pixelsize=13:antialias=true:autohint=true" 
 };
